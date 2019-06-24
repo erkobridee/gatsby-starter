@@ -120,6 +120,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 -   the project uses sass and the postcss with autoprefixer support and related to this last one there is an open issue related to the warning message showed on the terminal `BrowserslistError: Unknown browser query 'android all'` ( [browserslist issue #382](https://github.com/browserslist/browserslist/issues/382) )
 
--   added a temporary solution described on the issue comments
+    -   added a temporary solution described on the issue comments
 
 -   the project has the configuration to be able to use absolute imports on the code ( [Gatsby Docs - Absolute imports](https://www.gatsbyjs.org/docs/add-custom-webpack-config/#absolute-imports) )
