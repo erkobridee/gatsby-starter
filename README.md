@@ -36,6 +36,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```sh
     cd my-starter/
+    npm i
     gatsby develop
     ```
 
