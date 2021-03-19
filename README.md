@@ -95,32 +95,32 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 ## 💻 Available Commands
 
--   format the code using the prettier: `npm run format`
+- format the code using the prettier: `npm run format`
 
--   lint the code using the eslint: `npm run lint`
+- lint the code using the eslint: `npm run lint`
 
--   check the code (typings and lint): `npm run check`
+- check the code (typings and lint): `npm run check`
 
--   start the development server: `npm run develop` or `npm start`
+- start the development server: `npm run develop` or `npm start`
 
--   cleanup the temporary directories: `npm run clean`
+- cleanup the temporary directories: `npm run clean`
 
--   build the production output version: `npm run build`
+- build the production output version: `npm run build`
 
--   test the production outputed version: `npm run serve`
+- test the production outputed version: `npm run serve`
 
 ## 🎓 Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
--   **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
--   **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 ## 📝 Notes
 
--   the project uses sass and the postcss with autoprefixer support and related to this last one there is an open issue related to the warning message showed on the terminal `BrowserslistError: Unknown browser query 'android all'` ( [browserslist issue #382](https://github.com/browserslist/browserslist/issues/382) )
+- the project uses sass and the postcss with autoprefixer support and related to this last one there is an open issue related to the warning message showed on the terminal `BrowserslistError: Unknown browser query 'android all'` ( [browserslist issue #382](https://github.com/browserslist/browserslist/issues/382) )
 
-    -   added a temporary solution described on the issue comments
+  - added a temporary solution described on the issue comments
 
--   the project has the configuration to be able to use absolute imports on the code ( [Gatsby Docs - Absolute imports](https://www.gatsbyjs.org/docs/add-custom-webpack-config/#absolute-imports) )
+- the project has the configuration to be able to use absolute imports on the code ( [Gatsby Docs - Absolute imports](https://www.gatsbyjs.org/docs/add-custom-webpack-config/#absolute-imports) )
