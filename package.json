@@ -1,65 +1,66 @@
 {
-	"name": "gatsby-starter",
-	"private": true,
-	"description": "A simple starter to get up and developing quickly with Gatsby",
-	"version": "0.1.0",
-	"author": "Erko Bridee <erko.bridee@gmail.com>",
-	"dependencies": {
-		"react": "^16.8.6",
-		"react-dom": "^16.8.6",
-		"react-helmet": "^5.2.1"
-	},
-	"devDependencies": {
-		"eslint": "^5.16.0",
-		"eslint-config-prettier": "^5.0.0",
-		"eslint-plugin-prettier": "^3.1.0",
-		"gatsby": "^2.9.11",
-		"gatsby-image": "^2.1.4",
-		"gatsby-plugin-manifest": "^2.1.1",
-		"gatsby-plugin-offline": "^2.1.3",
-		"gatsby-plugin-react-helmet": "^3.0.12",
-		"gatsby-plugin-sass": "^2.0.13",
-		"gatsby-plugin-sharp": "^2.1.9",
-		"gatsby-source-filesystem": "^2.0.43",
-		"gatsby-transformer-sharp": "^2.1.21",
-		"node-sass": "^4.12.0",
-		"postcss-preset-env": "^6.6.0",
-		"prettier": "^1.18.2",
-		"prop-types": "^15.7.2",
-		"browserslist": "4.6.2",
-		"caniuse-lite": "1.0.30000974"
-	},
-	"keywords": [
-		"gatsby",
-		"starter"
-	],
-	"license": "MIT",
-	"scripts": {
-		"format": "prettier --write src/**/*.{js,jsx}",
-		"lint": "eslint 'src/**/*.{js,jsx}'",
-		"start": "npm run develop",
-		"develop": "gatsby develop -H 0.0.0.0",
-		"type-check": "tsc",
-		"check": "npm-run-all -s type-check lint",
-		"clean": "gatsby clean",
-		"gatsby-build": "gatsby build",
-		"build": "npm-run-all -s check clean gatsby-build",
-		"gatsby-serve": "gatsby serve -H 0.0.0.0",
-		"serve": "npm-run-all -s build gatsby-serve",
-		"test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/gatsbyjs/gatsby-starter-default"
-	},
-	"bugs": {
-		"url": "https://github.com/gatsbyjs/gatsby/issues"
-	},
-	"browserslist": [
-		">1%",
-		"ie>=11",
-		"iOS >= 9",
-		"Android >= 4.4",
-		"not op_mini all"
-	]
+  "name": "gatsby-starter",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.2.0",
+  "author": "Erko Bridee <erko.bridee@gmail.com>",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "browserslist": "^4.16.3",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "gatsby": "^3.1.1",
+    "gatsby-plugin-image": "^1.1.1",
+    "gatsby-plugin-manifest": "^3.1.0",
+    "gatsby-plugin-offline": "^4.1.0",
+    "gatsby-plugin-react-helmet": "^4.1.0",
+    "gatsby-plugin-sass": "^4.1.0",
+    "gatsby-plugin-sharp": "^3.1.1",
+    "gatsby-source-filesystem": "^3.1.0",
+    "gatsby-transformer-sharp": "^3.1.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.1",
+    "prop-types": "^15.7.2",
+    "sass": "^1.32.8"
+  },
+  "keywords": [
+    "gatsby",
+    "starter"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "clean": "gatsby clean",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,md}'",
+    "lint": "eslint 'src/**/*.{js,jsx}'",
+    "check": "run-s lint",
+    "develop": "gatsby develop -H 0.0.0.0",
+    "gatsby-build": "gatsby build",
+    "start": "run-s develop",
+    "build": "run-s check clean gatsby-build",
+    "gatsby-serve": "gatsby serve -H 0.0.0.0",
+    "serve": "run-s build gatsby-serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "browserslist": [
+    ">1%",
+    "ie>=11",
+    "iOS >= 9",
+    "Android >= 4.4",
+    "not op_mini all"
+  ]
 }
